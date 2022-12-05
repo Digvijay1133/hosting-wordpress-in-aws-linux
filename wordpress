@@ -8,6 +8,6 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 sudo git clone https://github.com/Digvijay1133/wordpress-hosting.yaml.git
-sudo chmod 666 /var/run/wordpress-hosting.yaml
+sudo chmod 666 /var/run/docker.sock
 cd wordpress-hosting.yaml
 docker-compose up -d
